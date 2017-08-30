@@ -40,7 +40,7 @@
         <password>${pwd}</password>
 	      <workerType>Micro</workerType>
         <redeploy>true</redeploy>
-        <environment>Sandbox</environment>
+        <environment>tst</environment>
         <applicationName>maven-project-chris</applicationName>
     </configuration>
     <executions>
