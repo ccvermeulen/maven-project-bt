@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mulesoft.training</groupId>
-	<artifactId>maven-project-chris</artifactId>
+	<artifactId>test-chris</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule</packaging>
 	<name>Mule maven-project Application</name>
@@ -41,7 +41,7 @@
 	      <workerType>Micro</workerType>
         <redeploy>true</redeploy>
         <environment>tst</environment>
-        <applicationName>test-chve</applicationName>
+        <applicationName>${artifactId}</applicationName>
     </configuration>
     <executions>
         <execution>
