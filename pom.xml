@@ -42,6 +42,7 @@
         <redeploy>true</redeploy>
         <environment>tst</environment>
         <applicationName>${artifactId}</applicationName>
+        <businessGroup>GLOMIDCO</businessGroup>
     </configuration>
     <executions>
         <execution>
